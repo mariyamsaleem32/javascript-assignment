@@ -1,0 +1,134 @@
+<!--b. Body (before your page’s HTML)
+<script src="script.js"></script>--> 
+<!DOCTYPE html>
+<html lang="en">
+<!-- Practice placement of <script></script> element in
+following sections of your project in exercise 6: -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+     <!-- a. Head 
+    <script src="script.js"></script>-->
+    <title>form.html</title>
+</head>
+<body>
+    <!-- c. Body (inside your page’s HTML)-->
+    <script src="script.js"></script>
+    <form action="http://www.Google.com" method="get"></form>
+    <fieldset>
+        <legend>type your personal information here</legend>
+        <label for="Name">Name</label>
+    <input type="text"     placeholder="enter your name" id="Name" name="user name"> <br><br>
+    <label for="second Name">second Name</label>
+    <input type="text"     placeholder="enter your second name" id="second Name" maxlength="5" step="2"><br><br>
+    <input type="email"    placeholder="enter your email" name="user email"><br><br>
+    <input type="password" placeholder="enter your password" name="user email password" size="45"><br><br>
+    <input type="number"   placeholder="enter your phone number" name="user phone number" disabled="disabled"><br><br>
+    <input type="date"     placeholder="enter your birth date" name="user date of birth"><br><br>
+    <input type="datetime-local"><br><br>
+    <input type="hidden"><br><br>
+    <input type="number" min="0" max="100" step="10" value="30"><br><br>
+    <label for="11">  male</label> <input type="radio" value="male" name="gender" id="11" checked="checked">
+    <label for="12">female</label> <input type="radio" value="female" name="gender" id="12"><br><br>
+    <label>choose your city</label>
+    <select size="1" multiple>
+        <option>karachi</option>
+        <option>islamabad</option>
+        <option>faisalabad</option>
+        <option>pishawar</option>
+        <option>ayderabad</option>
+        <option>lahore</option>
+    </select></fieldset><br>
+    <fieldset><legend>acadmic information</legend>
+        <p> <label for="colification"></label>
+     what is your colification
+        <select><option>matric</option>
+            <option>enter</option>
+            <option>grduate</option>
+            <option>master</option>
+        </select></p>
+        <br>
+        <p>
+            <label></label>
+            Do you have leptop
+            <label><input type="radio" name="leptop" value="yes" >yes</label>
+             <label> <input type="radio" name="leptop" value="no">no</label>
+        </p>
+        <label for="">which leptop do you have?</label> <br>
+<input list="company">
+<datalist id="company">
+<option value="hp">hp
+<option value="fujitsu">fujitsu
+<option value="dell">dell
+<option value="lenovo">lenovo
+</datalist>
+                <br>
+        which course do you want to select
+        <label for="a"></label><input type="checkbox" value="AI" id="a">Artifetiol intelligence
+        <label for="w"></label><input type="checkbox" value="wd" id="v">web development
+        <label for="g"></label><input type="checkbox" value="gd" id="g">graphic designing<br>
+       </p>
+       <label>upload your passport size picture </label><input type="file" accept="image/*">
+        </fieldset><br><br>
+<fieldset>
+    <legend>
+    Your Review:
+    </legend>
+    <p>
+        <label for="hear about us"></label>
+        how did you hear about us?
+        <select>
+            <option value="Google">Google</option>
+            <option value="friend">friend</option>
+            <option value="facebook">facebook</option>
+            <option value="other">other</option>
+        </select>
+    </p>
+<p>
+    Do you like our website?
+    <br />
+    <label for="yes">
+    <input type="radio" name="like" value="yes" id="yes" />
+    Yes
+    </label>
+    <label for="no">
+    <input type="radio" name="like" value="no" id="no" />
+    No
+   </label>
+    <label for="maybe">
+    <input type="radio" name="like" value="maybe" id="maybe"/>
+    Maybe
+    </label>
+    </p>
+
+    <p>
+        Would you visit again?
+        <br />
+        <label for="5">
+        <input type="radio" name="rating" value="yes" id="5"/>
+        Yes
+        </label>
+        <label>
+        <input type="radio" name="rating" value="no" />
+        No
+       
+        </label>
+        <label>
+        <input type="radio" name="rating" value="maybe" />
+        Maybe
+        </label>
+        </p>
+        <label>comments</label><textarea rows="10px" cols="60px" placeholder="type answer here"></textarea>
+<br>
+<label>
+    <input type="checkbox" name="subscribe" checked="checked"/>
+    Sign me up for email updates
+    </label>
+    <br />
+    <input type="button" value="Submit review" /> <input type="reset" value="resest">
+    </fieldset>
+</form>
+</body>
+<!-- d. Body (after your page’s HTML)
+    <script src="script.js"></script>
+</html>
