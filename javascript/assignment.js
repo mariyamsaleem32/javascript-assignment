@@ -19,6 +19,7 @@ alert("welcome to JS land");
 alert("Happy Coding\n prevent this page from creatng aditional dialogs."); 
 //question no:5 
  console.log(alert("Hello... I can run JS through my web browser's console"));
+//question no:6 is in script.js 
 
                                               //CHAPTER NO:2 VARIABLE FOR STRING
 //question no:1.
